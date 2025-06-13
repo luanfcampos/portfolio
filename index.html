@@ -1,11 +1,268 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Luan Campos - Desenvolvedor Front-end</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <i class="fas fa-code"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#projects">PROJETOS</a></li>
+                <li><a href="#contact">CONTATO</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>
+                SOLUÇÕES <span id="typewriter"></span>
+                <br>& DESENVOLVIMENTO FRONT-END
+            </h1>
+            <p>Luan Campos, Viçosa-MG. Desenvolvedor Front-end.</p>
+            <div class="hero-icons">
+                <i class="fab fa-github"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+            <button class="btn-primary">VER PROJETOS</button>
+        </div>
+        
+
+        <!-- Tech Icons -->
+        <div class="tech-icons">
+            <h3>Conhecimento nas principais<br>tecnologias do mercado</h3>
+            <div class="icons-grid">
+                <img class="tech-icon" src="assets/icons/typescript.svg" alt="TypeScript icon">
+                <img class="tech-icon" src="assets/icons/javascript.svg" alt="JavaScript icon">
+                <img class="tech-icon" src="assets/icons/react.svg" alt="ReactJs icon">
+                <img class="tech-icon" src="assets/icons/next.svg" alt="NextJs icon">
+                <img class="tech-icon" src="assets/icons/tailwind.svg" alt="TailwindCSS icon">
+                <img class="tech-icon" src="assets/icons/figma.svg" alt="figma icon">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">PROJETOS</h2>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgdmlld0JveD0iMCAwIDQwMCAzMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSIjZjNmNGY2Ii8+CjxyZWN0IHg9IjUwIiB5PSI1MCIgd2lkdGg9IjMwMCIgaGVpZ2h0PSIyMDAiIHJ4PSIxMCIgZmlsbD0id2hpdGUiLz4KPHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDIwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeD0iMTAwIiB5PSIxMDAiPgo8cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0iIzMzMzMzMyIvPgo8L3N2Zz4KPC9zdmc+" alt="Josi's Box E-commerce">
+                </div>
+                <div class="project-info">
+                    <h3>JOSI'S BOX ECOMMERCE</h3>
+                    <p>Breve descrição sobre o projeto</p>
+                    <ul>
+                        <li>• Carrinho de compras</li>
+                        <li>• Carrinho de comentários</li>
+                        <li>• Protégem por pisco e categoria</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span class="tech-badge"><i class="fab fa-angular"></i></span>
+                        <span class="tech-badge"><i class="fab fa-js-square"></i></span>
+                        <span class="tech-badge"><i class="fab fa-bootstrap"></i></span>
+                        <span class="tech-badge"><i class="fab fa-sass"></i></span>
+                    </div>
+                    <div class="project-actions">
+                        <button class="btn-outline">VER LIVE DO PROJETO</button>
+                        <button class="btn-outline">VER REPOSITÓRIO</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgdmlld0JveD0iMCAwIDQwMCAzMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSIjZjNmNGY2Ii8+CjxyZWN0IHg9IjUwIiB5PSI1MCIgd2lkdGg9IjMwMCIgaGVpZ2h0PSIyMDAiIHJ4PSIxMCIgZmlsbD0iIzMzMzMzMyIvPgo8L3N2Zz4=" alt="Archstil Blog">
+                </div>
+                <div class="project-info">
+                    <h3>ARCHSTIL BLOG</h3>
+                    <p>Breve descrição sobre o projeto</p>
+                    <ul>
+                        <li>• Painel administrativo e não administrador</li>
+                        <li>• Protégem na página de categorias</li>
+                        <li>• Protégem por página categorias</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span class="tech-badge"><i class="fab fa-js-square"></i></span>
+                        <span class="tech-badge"><i class="fab fa-bootstrap"></i></span>
+                    </div>
+                    <div class="project-actions">
+                        <button class="btn-outline">VER LIVE DO PROJETO</button>
+                        <button class="btn-outline">VER REPOSITÓRIO</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgdmlld0JveD0iMCAwIDQwMCAzMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSIjZjNmNGY2Ii8+CjxyZWN0IHg9IjUwIiB5PSI1MCIgd2lkdGg9IjMwMCIgaGVpZ2h0PSIyMDAiIHJ4PSIxMCIgZmlsbD0iIzMzMzMzMyIvPgo8cmVjdCB4PSIxMDAiIHk9IjEwMCIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9IiNmZmNjMDAiLz4KPC9zdmc+" alt="Games Store">
+                </div>
+                <div class="project-info">
+                    <h3>GAMES STORE</h3>
+                    <p>Breve descrição sobre o projeto</p>
+                    <ul>
+                        <li>• Carrinho de compras</li>
+                        <li>• Carrinho de comentários</li>
+                        <li>• Protégem por pisco e categoria</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span class="tech-badge"><i class="fab fa-angular"></i></span>
+                        <span class="tech-badge"><i class="fab fa-js-square"></i></span>
+                        <span class="tech-badge"><i class="fab fa-bootstrap"></i></span>
+                    </div>
+                    <div class="project-actions">
+                        <button class="btn-outline">VER LIVE DO PROJETO</button>
+                        <button class="btn-outline">VER REPOSITÓRIO</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="view-all-projects">
+                <button class="btn-primary">VER TODOS OS PROJETOS</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDIwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxjaXJjbGUgY3g9IjEwMCIgY3k9IjEwMCIgcj0iMTAwIiBmaWxsPSIjNjM2NmYxIi8+Cjxzdmcgd2lkdGg9IjEyMCIgaGVpZ2h0PSIxMjAiIHZpZXdCb3g9IjAgMCAxMjAgMTIwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjQwIiB5PSI0MCI+CjxwYXRoIGQ9Ik02MCA2MEM2OS45NDExIDYwIDc4IDUxLjk0MTEgNzggNDJDNzggMzIuMDU4OSA2OS45NDExIDI0IDYwIDI0QzUwLjA1ODkgMjQgNDIgMzIuMDU4OSA0MiA0MkM0MiA1MS45NDExIDUwLjA1ODkgNjAgNjAgNjBaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNNjAgNzJDNDMuNDMxNSA3MiAzMCA4NS40MzE1IDMwIDEwMlYxMDhIOTBWMTAyQzkwIDg1LjQzMTUgNzYuNTY4NSA3MiA2MCA3MloiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo8L3N2Zz4=" alt="Elidade Andrade">
+                </div>
+                <div class="about-text">
+                    <h2>SOBRE MIM</h2>
+                    <p>Luan Ferreira Campos é desenvolvedor front-end com experiência na criação de interfaces modernas, acessíveis e de alto desempenho. Trabalha com tecnologias como HTML, CSS, JavaScript (ES6+), React, Next.js e TailwindCSS, desenvolvendo aplicações web responsivas e otimizadas para a melhor experiência do usuário. Também possui conhecimentos em back-end com Node.js e Laravel, o que amplia sua capacidade de integrar diferentes camadas de uma aplicação.</p>
+                    <p>Com formação em Engenharia Ambiental pela Universidade Federal de Viçosa, Luan combina pensamento analítico com atenção ao design e à usabilidade. Tem domínio de versionamento com Git, experiência em projetos colaborativos e já atuou também liderando e treinando equipes técnicas. Está em constante evolução, buscando soluções criativas e funcionais que unam tecnologia, clareza visual e propósito.</p>
+                    <div class="location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Viçosa, Minas Gerais</span>
+                    </div>
+                    <div class="about-actions">
+                        <button class="btn-primary">CONTRATE-ME</button>
+                        <button class="btn-outline">CURRÍCULO</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience-education">
+                <div class="experience">
+                    <h3>FORMAÇÃO</h3>
+                    <div class="timeline-item">
+                        <h4>Engenharia Ambiental</h4>
+                        <span>Concluido em 2021</span>
+                        <p>UFV - Universidade Federal de Viçosa</p>
+                    </div>
+                </div>
+
+                <div class="education">
+                    <h3>CURSOS E CERTIFICADOS</h3>
+                    <div class="timeline-item">
+                        <h4>Google Project Management - Coursera</h4>
+                        <span>Concluído</span>
+                        <a href="https://coursera.org/share/14825bc0cfd98f4626473bbfc8510231">Certificado</a>
+                    </div>
+                    <div class="timeline-item">
+                        <h4>Frontend Developer (React) Certificate - HackerRank</h4>
+                        <a href="https://www.hackerrank.com/certificates/24d28083bf8e">Certificado</a>
+                    </div>
+                    <div class="timeline-item">
+                        <h4>Software Engineer Certificate - HackerRank</h4>
+                        <a href="https://www.hackerrank.com/certificates/b0d561b7c808">Certificado</a>
+                    </div>
+                    
+                    
+                </div>
+
+                <div class="experience-section">
+                    <h3>EXPERIÊNCIAS</h3>
+                    <div class="timeline-item">
+                        <h4>Desenvolvedor Front-End</h4>
+                        <span>Jun 2020 - Dez 2024</span>
+                        <p>    Atuei no desenvolvimento de aplicações web responsivas, com foco em interfaces intuitivas e atraentes. Realizei otimizações e manutenção contínua de sites, garantindo performance, acessibilidade e boa experiência do usuário. Também coordenei e ofereci suporte técnico a estagiários, contribuindo para o crescimento da equipe.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">CONTATE-ME</h2>
+            <p>Estou disponível para serviços e novos conexões. Contate-me via e-mail e contato-
+me comigo através das minhas redes sociais.</p>
+            
+            <div class="contact-info">
+                <div class="social-links">
+                    <a href="https://github.com/luanfcampos" class="social-link">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/luanfc/" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://whatsa.me/5531999035760" class="social-link">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>WhatsApp</span>
+                    </a>
+                </div>
+                <div class="email-contact">
+                    <span>lfcampos.dev@gmail.com</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025. Luan Campos. Desenvolvedor desde 2020.</p>
+            <div class="footer-icons">
+                <i class="fab fa-angular"></i>
+                <i class="fab fa-js-square"></i>
+                <i class="fab fa-bootstrap"></i>
+                <i class="fab fa-sass"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script>
+        //Typewriter
+        var app = document.getElementById('app');
+
+        var typewriter = new Typewriter(app, {
+        loop: true,
+        delay: 75,
+        });
+
+        new Typewriter('#typewriter', {
+            strings: ['CRIATIVAS', 'INOVADORAS', 'DINÂMICAS', 'RESPONSIVAS', 'ELEGANTES', 'MODERNAS'],
+            autoStart: true,
+            loop: true,
+        });
+    </script>
 </body>
 </html>
